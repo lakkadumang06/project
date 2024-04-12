@@ -1,5 +1,5 @@
 .bg {
-  background-color: white;
+  background-color: #ffffff;
 }
 ul,
 li {
@@ -12,31 +12,10 @@ a {
 body {
   font-family: "Poppins", sans-serif;
 }
-.main_navbar {
-  /* background-image: url(../assets/asset\ 17.jpeg); */
-  width: 100%;
-  height: 100vh;
-  background-position: center;
-  position: relative;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-#menu1 {
-  opacity: 0;
-  visibility: hidden;
-}
-.main_navbar::before {
-  content: "";
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.4);
-  top: 0;
-  position: absolute;
-  left: 0;
-}
 .bars {
   color: black;
   font-size: 23px;
+  display: none;
 }
 .logo {
   width: 100px;
@@ -61,8 +40,9 @@ body {
 }
 
 #navbar {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3);
   overflow: hidden;
-  background-color: #f1f1f1;
+  background-color: #ffffff;
   padding: 40px 50px 0px;
   transition: 0.4s;
   position: fixed;
@@ -103,9 +83,7 @@ body {
     font-size: 16px;
     font-weight: 300;
   }
-.bar {
-  display: none;
-}
+
 
 @media (max-width: 770px) {
   .main_menu li {

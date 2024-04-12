@@ -10,13 +10,13 @@ const Slider = () => {
   return (
     <OwlCarousel className="owl-theme slider" loop margin={10} items={1} autoplay autoplayTimeout={2000}>
       <div className="item">
-        <img src={slider1} alt="" className="w-100 object-cover" />
+        <img src={slider1} alt="" />
       </div>
       <div className="item">
-        <img src={slider2} alt="" className="w-100 object-cover" />
+        <img src={slider2} alt="" />
       </div>
       <div className="item">
-        <img src={slider3} alt="" className="w-100 object-cover" />
+        <img src={slider3} alt="" />
       </div>
     </OwlCarousel>
   );

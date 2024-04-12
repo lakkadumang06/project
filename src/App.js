@@ -3,8 +3,7 @@ import Grid from "./components/Grid";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Slider from "./components/Slider";
 import Navbar from "./components/Navbar";
-// import Header from "./components/Header";
-
+import Detail from "./components/Detail";
 function App() {
   return (
     <>
@@ -12,6 +11,7 @@ function App() {
       <Navbar />
       <Slider />
       <Grid />
+      <Detail />
 
     </>
   );

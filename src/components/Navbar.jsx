@@ -6,28 +6,6 @@ import { useState } from "react";
 import Offcanvas from "react-bootstrap/Offcanvas";
 import logo from '../assets/Supreme-Logo.png';
 
-// var cnt = 0;
-// const click = () => {
-//   if (cnt == 0) {
-//     document.getElementById("menu1").style.opacity = "1";
-//     document.getElementById("menu1").style.visibility = "visible";
-//     // document.getElementById('menu1').style.top="105px";
-//     cnt = 2;
-//     // console.log(cnt)
-//   } else {
-//     document.getElementById("menu1").style.opacity = "0";
-//     document.getElementById("menu1").style.visibility = "hidden";
-//     // document.getElementById('menu1').style.top="-130px";
-//     cnt = 0;
-//     // console.log(cnt)
-//   }
-// };
-// var cnt = 0;
-// const remove = () => {
-//   document.getElementById("menu1").style.opacity = "0";
-//   document.getElementById("menu1").style.visibility = "hidden";
-//   cnt = 0;
-// };
 
 const Navbar = () => {
   const [show, setShow] = useState(false);
@@ -88,7 +66,7 @@ const Navbar = () => {
         </div>
       </div>
       <div className="bar">
-        <div className="mobi_header" id="menu1">
+        <div>
           <Offcanvas show={show} onHide={handleClose} className="offcanvas">
             <Offcanvas.Header closeButton />
             <Offcanvas.Body>

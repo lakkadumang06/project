@@ -1,0 +1,33 @@
+ * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.grid_img1,
+.grid_img2,
+.grid_img3 {
+  width: 33.33%;
+  padding: 0 5px;
+  display: table-cell;
+}
+.grid img {
+  width: 100%;
+  object-fit: cover;
+  margin-top: 10px;
+  display: block;
+}
+.main_grid {
+  padding: 20px;
+}
+.grid_img1 .img2 {
+  height: max-content;
+}
+.grid {
+  display: table-row;
+  /* align-items: stretch; */
+  /* flex-wrap: wrap; */
+  vertical-align: top;
+}
+.grid > div {
+  height: 100%;
+}
